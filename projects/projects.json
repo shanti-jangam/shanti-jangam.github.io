@@ -1,0 +1,74 @@
+[
+  {
+    "name": "TeamUp - Event/Venue Management System",
+    "desc": "A microservices based platform for managing and booking sports venues and events. It connects users in real time with secure authentication, bookings, payments and map-based discovery using a modular service-oriented architecture.",
+    "image": "team_up",
+    "category": "FULLSTACK",
+    "technologies": ["React.js", "TypeScript", "Node.js", "PostgreSQL", "Stripe", "Redis", "Docker", "WebSockets"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/event-venue-management-system" }
+  },
+  {
+    "name": "SmartMedia Analyst - Real-Time AI-Powered Media Monitoring Platform",
+    "desc": "A microservices-based platform that ingests live media streams (YouTube, radio, podcasts) and uses advanced AI to transcribe, analyze, and control content in real-time. Built with FastAPI, Docker, PostgreSQL, and Hugging Face Transformers.",
+    "image": "smartmedia-analyst",
+    "category": "AI",
+    "technologies": ["Python (FastAPI)", "Docker", "PostgreSQL", "Hugging Face Transformers", "ffmpeg", "yt-dlp"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/aipowered-media-monitoring-platform" }
+  },
+  {
+    "name": "Distributed Redis Cache System",
+    "desc": "A distributed Redis caching system with automatic failover and data replication. Features include consistent hashing, ZooKeeper coordination, gRPC communication, and Prometheus/Grafana monitoring. Built with Node.js and Docker for high availability and scalability.",
+    "image": "distributed_redis",
+    "category": "BACKEND",
+    "technologies": ["Node.js", "Redis", "ZooKeeper", "gRPC", "Prometheus", "Docker"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/distributed-redis-cache-system" }
+  },
+  {
+    "name": "DevSync - Collaborative Code Environment",
+    "desc": "A real-time collaborative coding platform with integrated execution capabilities, enabling multiple users to code, chat, and test solutions simultaneously. Built with MERN stack and Socket.IO.",
+    "image": "devsync",
+    "category": "FULLSTACK",
+    "technologies": ["React.js", "TypeScript", "Socket.IO", "Monaco Editor", "Docker"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/collaborative-code-env" }
+  },
+  {
+    "name": "Cadenza - Real-time Music Collaboration",
+    "desc": "Cadenza is a real-time music collaboration app built with React, Node.js, Tone.js, and Magenta.js. Compose, explore, and share music using a piano roll, AI-generated melodies, and live feedback—all powered by modern web and AI technologies.",
+    "image": "Cadenza",
+    "category": "FULLSTACK",
+    "technologies": ["React", "Material-UI", "Tone.js", "WebSocket", "Node.js", "Magenta.js", "MusicRNN"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/Cadenza" }
+  },
+  {
+    "name": "Mario Platform Game",
+    "desc": "A Mario-style platformer game with multiple themed levels, enemy AI, and coin collection mechanics. Built with Kaboom.js and JavaScript, featuring responsive controls and modular architecture.",
+    "image": "mario_platform",
+    "category": "GAME",
+    "technologies": ["Kaboom.js", "JavaScript (ES6+)", "Game Logic", "Game Mechanics"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/donutRun---platform-game" }
+  },
+  {
+    "name": "Smart Recipe Generator",
+    "desc": "A MERN stack app powered by Cohere's LLM that generates personalized recipes based on available ingredients, dietary preferences, kitchen equipment, and suggests smart substitutions.",
+    "image": "recipie_generator",
+    "category": "FULLSTACK",
+    "technologies": ["React", "Material-UI", "React Context", "Node.js", "Express", "MongoDB", "Cohere API"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/smart-recipe-generator" }
+  },
+  {
+    "name": "Distributed Messaging System",
+    "desc": "Kubernetes distributed messaging system with sequential message passing through 4 server pods via TCP sockets and DNS discovery. Python-based implementation showcasing StatefulSets, headless services, and pod-to-pod communication.",
+    "image": "distributed_message_system",
+    "category": "BACKEND",
+    "technologies": ["Minikube", "kubectl", "Python 3.x", "Docker", "Kubernetes"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/distributed-message-system" }
+  },
+  {
+    "name": "Language Agnostic Visualization Web Application",
+    "desc": "A unified platform for creating data visualizations using either Python or R directly in your browser. Write and execute code with real-time rendering of static, interactive, and 3D plots without switching environments.",
+    "image": "visualization_app",
+    "category": "FULLSTACK",
+    "technologies": ["React", "TypeScript", "Material-UI", "Monaco Editor", "Axios", "FastAPI", "rpy2", "Matplotlib", "Plotly", "NumPy", "Pandas", "ggplot2"],
+    "links": { "view": "", "code": "https://github.com/shanti-jangam/language-agnostic-visualization-web-app" }
+  }
+] 

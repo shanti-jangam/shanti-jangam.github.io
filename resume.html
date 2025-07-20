@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Shanti Jangam</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-jpg">
+    <style>
+        .resume-container {
+            margin-top: 8rem;
+            padding: 2rem 9%;
+            min-height: 80vh;
+        }
+        .resume-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .resume-header h1 {
+            font-size: 3rem;
+            color: #0e2431;
+            margin-bottom: 1rem;
+        }
+        .resume-header p {
+            font-size: 1.5rem;
+            color: #666;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 80vh;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .back-btn {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .back-btn .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #ad0672;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.6rem;
+            transition: 0.3s;
+        }
+        .back-btn .btn:hover {
+            background: #e9026a;
+        }
+        @media (max-width: 768px) {
+            .resume-container {
+                padding: 1rem;
+                margin-top: 6rem;
+            }
+            .pdf-container {
+                height: 60vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar starts -->
+    <header>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Tech Stack</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#work">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <div class="resume-container">
+        <div class="resume-header">
+            <h1>Resume</h1>
+            <p>Shanti Jangam - Software Developer</p>
+        </div>
+        
+        <div class="pdf-container">
+            <iframe src="./assets/resume.pdf" title="Shanti Jangam Resume"></iframe>
+        </div>
+        
+        <div class="back-btn">
+            <a href="index.html" class="btn">
+                <i class="fas fa-arrow-left"></i> Back to Portfolio
+            </a>
+        </div>
+    </div>
+
+    <!-- scroll top btn -->
+    <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script>
+        // Handle navigation from resume page to main page sections
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a[href^="index.html#"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const href = this.getAttribute('href');
+                    const targetId = href.split('#')[1];
+                    
+                    // Store the target section in sessionStorage
+                    sessionStorage.setItem('scrollToSection', targetId);
+                    
+                    // Navigate to main page
+                    window.location.href = 'index.html';
+                });
+            });
+        });
+    </script>
+
+</body>
+</html> 
