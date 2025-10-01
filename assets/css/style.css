@@ -873,7 +873,7 @@ section .heading span {
 }
 
 .achievement-header {
-  display: flex;
+    display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
@@ -918,7 +918,7 @@ section .heading span {
 
 .tech-stack {
   display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 15px;
 }
@@ -936,7 +936,7 @@ section .heading span {
 .project-links {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .project-link {
@@ -1217,7 +1217,7 @@ section .heading span {
 @media screen and (max-width: 768px) {
   .highlights-container {
     padding: 0 1rem;
-    gap: 1.5rem;
+  gap: 1.5rem;
   }
   
   .highlights-content {
@@ -1757,13 +1757,21 @@ section .heading span {
   text-align: center;
 }
 .gallery-subtitle {
-  text-align: center;
-  font-size: 1.4rem;
-  color: #111 !important;
-  margin-bottom: 3rem;
-  font-style: italic;
-  opacity: 0.9;
-  font-weight: 500;
+  text-align: center !important;
+  font-size: 1.6rem !important;
+  color: #333 !important;
+  margin-bottom: 1.5rem !important;
+  font-style: normal !important;
+  font-style: normal !important;
+  opacity: 1 !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-decoration: none !important;
+  font-variant: normal !important;
+  text-transform: none !important;
 }
 .gallery-container {
   display: grid;
